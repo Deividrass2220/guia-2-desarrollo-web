@@ -1,7 +1,7 @@
-// 2.6.3 JavaScript Implementation - Utility Functions
+// 2.6.3 JavaScript - Funciones utilitarias
 
 const utils = {
-    // Session management
+    // Gestión de sesión
     isLoggedIn: () => {
         return localStorage.getItem('isLoggedIn') === 'true';
     },
@@ -31,7 +31,7 @@ const utils = {
         if (contactsLink) contactsLink.style.display = isLoggedIn ? 'block' : 'none';
     },
 
-    // Form validation
+    // Validación de formularios
     validateLoginForm: (email, password) => {
         const errors = {};
         

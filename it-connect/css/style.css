@@ -1,6 +1,6 @@
-/* 2.6.2 CSS3 Implementation - Main styles */
+/* 2.6.2 CSS3 - Estilos principales */
 
-/* CSS Reset and base styles */
+/* Reset de CSS y estilos base */
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ body {
     color: var(--text-color);
 }
 
-/* 2.6.2 Header and Navigation styles using Flexbox */
+/* 2.6.2 Estilos de encabezado y navegación usando Flexbox */
 .main-header {
     background-color: var(--primary-color);
     padding: 1rem;
@@ -75,7 +75,7 @@ body {
     color: var(--white);
 }
 
-/* 2.6.2 Main content styles using CSS Grid */
+/* 2.6.2 Estilos del contenido principal usando CSS Grid */
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -97,7 +97,7 @@ body {
     transform: translateY(-5px);
 }
 
-/* 2.6.2 Form styles */
+/* 2.6.2 Estilos de formularios */
 .login-container {
     max-width: 400px;
     margin: 2rem auto;
@@ -140,7 +140,7 @@ body {
     background-color: #2980b9;
 }
 
-/* 2.6.2 Profile styles */
+/* 2.6.2 Estilos de perfil */
 .profile-container {
     max-width: 800px;
     margin: 2rem auto;
@@ -178,7 +178,7 @@ body {
     background-color: var(--accent-color);
 }
 
-/* 2.6.2 Contacts styles */
+/* 2.6.2 Estilos de la sección de contactos */
 .contacts-container {
     max-width: 1200px;
     margin: 2rem auto;
@@ -266,7 +266,7 @@ body {
     background-image: url('data:image/svg+xml,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="%231877F2"/></svg>');
 }
 
-/* 2.6.2 Footer styles */
+/* 2.6.2 Estilos del pie de página */
 footer {
     background-color: var(--primary-color);
     color: var(--white);

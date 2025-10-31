@@ -1,6 +1,6 @@
-/* 2.6.2 CSS3 Implementation - Responsive styles */
+/* 2.6.2 CSS3 - Estilos responsivos */
 
-/* Tablet styles */
+/* Estilos para tablet */
 @media screen and (max-width: 768px) {
     .nav-container {
         flex-direction: column;
@@ -31,7 +31,7 @@
     }
 }
 
-/* Mobile styles */
+/* Estilos para móviles */
 @media screen and (max-width: 480px) {
     .nav-menu {
         flex-direction: column;
@@ -62,7 +62,7 @@
     }
 }
 
-/* Print styles */
+/* Estilos para impresión */
 @media print {
     .nav-menu,
     .search-box,

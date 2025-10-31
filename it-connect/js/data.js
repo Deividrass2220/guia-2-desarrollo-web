@@ -1,6 +1,6 @@
-// 2.6.3 JavaScript Implementation - Data Module
+// 2.6.3 JavaScript - Módulo de datos
 
-// Mock user data
+// Datos simulados de usuarios
 const users = [
     {
         id: 1,
@@ -35,7 +35,7 @@ const users = [
     // Add more mock users here
 ];
 
-// 2.6.4 JavaScript Implementation - Data management functions
+// 2.6.4 JavaScript - Funciones de gestión de datos
 const dataModule = {
     // Get all users
     getAllUsers: () => users,
