@@ -1,0 +1,83 @@
+/* 2.6.2 CSS3 Implementation - Responsive styles */
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu {
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    .contacts-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .login-container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .profile-container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .profile-image img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .nav-menu,
+    .search-box,
+    .btn-primary {
+        display: none;
+    }
+
+    body {
+        font-size: 12pt;
+    }
+
+    .profile-container,
+    .contacts-container {
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+    }
+}

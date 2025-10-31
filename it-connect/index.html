@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- 2.6.1 HTML5 Implementation - Using semantic tags and responsive design -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Connect - Red Profesional TI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- 2.6.1 Semantic header with navigation -->
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>IT Connect</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+                <li><a href="profile.html" style="display: none;">Perfil</a></li>
+                <li><a href="contacts.html" style="display: none;">Red de Contactos</a></li>
+                <li><a href="#" id="logoutBtn" class="logout-btn" style="display: none;">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2.6.1 Main content sections using semantic tags -->
+        <section class="hero">
+            <h2>Conecta con Profesionales IT</h2>
+            <p>Únete a la red profesional líder en el sector de tecnología</p>
+        </section>
+
+        <section class="features">
+            <h3>Características Principales</h3>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <h4>Networking Profesional</h4>
+                    <p>Conecta con expertos del sector IT</p>
+                </article>
+                <article class="feature-card">
+                    <h4>Proyectos Colaborativos</h4>
+                    <p>Participa en proyectos innovadores</p>
+                </article>
+                <article class="feature-card">
+                    <h4>Oportunidades Laborales</h4>
+                    <p>Encuentra tu próximo desafío profesional</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Nueva sección de empresas importantes -->
+        <section class="companies">
+            <h3>Empresas Destacadas en IT</h3>
+            <div class="companies-grid">
+                <article class="company-card">
+                    <i class="company-icon microsoft"></i>
+                    <h4>Microsoft</h4>
+                    <p>Líder en software y servicios cloud</p>
+                </article>
+                <article class="company-card">
+                    <i class="company-icon google"></i>
+                    <h4>Google</h4>
+                    <p>Innovación en tecnología y servicios web</p>
+                </article>
+                <article class="company-card">
+                    <i class="company-icon amazon"></i>
+                    <h4>Amazon</h4>
+                    <p>Líder en e-commerce y servicios cloud</p>
+                </article>
+                <article class="company-card">
+                    <i class="company-icon meta"></i>
+                    <h4>Meta</h4>
+                    <p>Pioneros en redes sociales y metaverso</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- 2.6.1 Semantic footer -->
+    <footer>
+        <p>&copy; 2025 IT Connect - Universidad EAN</p>
+    </footer>
+
+    <!-- JavaScript imports -->
+    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
